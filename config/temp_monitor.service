@@ -1,0 +1,12 @@
+[Unit]
+Description=Daemon para monitorear temperatura CPU y notificar
+
+[Service]
+ExecStart=/usr/bin/temp_monitor
+Restart=always
+User=cris
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target
