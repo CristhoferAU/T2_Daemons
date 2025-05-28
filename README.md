@@ -1,6 +1,6 @@
 # 🖥️ Temp Monitor Daemon
 
-Este proyecto implementa un daemon en C++ que monitorea la temperatura del CPU usando `/sys/class/thermal/thermal_zone0/temp`. Si se supera un umbral de temperatura (por defecto 45 °C), el sistema registra la alerta y, si es posible, lanza una notificación gráfica mediante `notify-send`.
+Este proyecto implementa un daemon en C++ que monitorea la temperatura del CPU usando `/sys/class/thermal/thermal_zone0/temp`. Si se supera un umbral de temperatura (por defecto 65 °C), el sistema registra la alerta y, si es posible, lanza una notificación gráfica mediante `notify-send`.
 
 El proyecto utiliza CMake para la compilación y configuración automática del servicio `systemd`, que se instala en `/usr/bin` y se habilita como daemon del sistema.
 
