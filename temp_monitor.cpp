@@ -12,7 +12,7 @@
 // Path para leer la temperatura actual del CPU
 #define TEMP_PATH "/sys/class/thermal/thermal_zone0/temp"
 // Path para loguear las temperaturas leídas
-#define LOG_PATH "/home/cris/temp_monitor.log"
+#define LOG_PATH "/tmp/temp_monitor.log"
 #define UMBRAL 65000 // 65 grados
 
 // Función para leer la temperatura del CPU
