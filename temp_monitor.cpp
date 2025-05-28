@@ -68,7 +68,7 @@ int main() {
             if (system("which notify-send > /dev/null 2>&1") == 0) {
                 // Lanza la notificación para el usuario
                 std::string cmd = "DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=" + dbus_path +
-                                  " notify-send '⚠️ Alerta de Temperatura' 'CPU supera los 45°C'";
+                                  " notify-send '⚠️ Alerta de Temperatura' 'CPU supera los 65°C'";
                 system(cmd.c_str());
             }
         }
