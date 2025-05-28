@@ -42,3 +42,9 @@ sudo make enable_service
 
 - **sudo make uninstall_service**  
   Detiene, deshabilita y elimina completamente el servicio, el binario y el archivo de logs.
+
+
+## 📋 Comando disponible para observar deamon activado
+
+- **systemctl list-units --type=service**
+  Muestra los deamons activados

@@ -4,7 +4,7 @@ Description=Daemon para monitorear temperatura CPU y notificar
 [Service]
 ExecStart=/usr/bin/temp_monitor
 Restart=always
-User=cris
+User=nics
 StandardOutput=null
 StandardError=null
 

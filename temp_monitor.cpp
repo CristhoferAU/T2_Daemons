@@ -11,7 +11,7 @@
 
 #define TEMP_PATH "/sys/class/thermal/thermal_zone0/temp"
 #define LOG_PATH "/tmp/temp_monitor.log"
-#define UMBRAL 45000 // 45 grados
+#define UMBRAL 90000 // 45 grados
 
 int leer_temperatura() {
     std::ifstream temp_file(TEMP_PATH);
